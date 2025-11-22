@@ -1,0 +1,101 @@
+.header {
+  height: 80px;
+  background-color: #232938;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  margin: 0;
+}
+
+.header-left {
+  margin: 0;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: #2a3142;
+  color: #b0b8c9;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-btn:hover {
+  background-color: #2d3548;
+  color: #ffffff;
+}
+
+.notification-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #2a3142;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b0b8c9;
+  transition: all 0.2s;
+}
+
+.notification-btn:hover {
+  background-color: #2d3548;
+  color: #ffffff;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: #ff6b9d;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 10px;
+  min-width: 18px;
+  text-align: center;
+}
+
+.header-user {
+  margin-left: 10px;
+}
+
+.header-avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #2a3142;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b0b8c9;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.header-avatar:hover {
+  background-color: #2d3548;
+}

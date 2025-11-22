@@ -1,0 +1,121 @@
+.customer-row {
+  transition: background-color 0.2s;
+}
+
+.customer-row:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.customer-name {
+  font-weight: 500;
+}
+
+.customer-location {
+  color: #b0b8c9;
+}
+
+.customer-amount {
+  font-weight: 500;
+  font-family: 'Courier New', monospace;
+}
+
+.plan-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.plan-gold {
+  background-color: rgba(255, 215, 0, 0.15);
+  color: #FFD700;
+}
+
+.plan-platinum {
+  background-color: rgba(229, 228, 226, 0.15);
+  color: #E5E4E2;
+}
+
+.plan-premium {
+  background-color: rgba(138, 43, 226, 0.15);
+  color: #BA55D3;
+}
+
+.plan-silver {
+  background-color: rgba(192, 192, 192, 0.15);
+  color: #C0C0C0;
+}
+
+.plan-premium-plus {
+  background-color: rgba(255, 102, 153, 0.15);
+  color: #ff6b9d;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: rgba(77, 208, 225, 0.15);
+  color: #4dd0e1;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.action-btn {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all 0.2s;
+  background-color: transparent;
+  flex-shrink: 0;
+  cursor: pointer;
+  border: none;
+}
+
+.action-edit {
+  background-color: orange;
+  color: white;
+}
+
+.action-edit:hover {
+  background-color: orange;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.action-delete {
+  background-color: red;
+  color: white;
+}
+
+.action-delete:hover {
+  background-color: #f44336;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.action-print {
+  background-color: blue;
+  color: white;
+}
+
+.action-print:hover {
+  background-color: #5c7cfa;
+  color: white;
+  transform: translateY(-2px);
+}
